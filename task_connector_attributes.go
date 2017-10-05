@@ -28,9 +28,9 @@ type TaskConnectorAttributes struct {
 
 	ConnectorClass string `json:"connector_class,omitempty"`
 
-	InputParameters string `json:"input_parameters,omitempty"`
+	InputParameters interface{} `json:"input_parameters,omitempty"`
 
-	OutputParameters string `json:"output_parameters,omitempty"`
+	OutputParameters interface{} `json:"output_parameters,omitempty"`
 
 	AsyncBefore bool `json:"async_before,omitempty"`
 

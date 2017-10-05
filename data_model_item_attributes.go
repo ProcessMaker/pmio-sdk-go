@@ -24,5 +24,5 @@ package pmio
 
 type DataModelItemAttributes struct {
 
-	Content string `json:"content,omitempty"`
+	Content interface{} `json:"content,omitempty"`
 }
