@@ -5,8 +5,8 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **TaskId** | **int32** |  | [optional] [default to null]
 **ConnectorClass** | **string** |  | [optional] [default to null]
-**InputParameters** | [**Object**](object.md) |  | [optional] [default to null]
-**OutputParameters** | [**Object**](object.md) |  | [optional] [default to null]
+**InputParameters** | **string** |  | [optional] [default to null]
+**OutputParameters** | **string** |  | [optional] [default to null]
 **AsyncBefore** | **bool** |  | [optional] [default to null]
 **CreatedAt** | **string** |  | [optional] [default to null]
 **UpdatedAt** | **string** |  | [optional] [default to null]

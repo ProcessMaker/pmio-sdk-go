@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**InputParameters** | [**Object**](object.md) |  | [default to null]
-**OutputParameters** | [**Object**](object.md) |  | [default to null]
+**InputParameters** | **string** |  | [default to null]
+**OutputParameters** | **string** |  | [default to null]
 **CreatedAt** | **string** |  | [optional] [default to null]
 **UpdatedAt** | **string** |  | [optional] [default to null]
 

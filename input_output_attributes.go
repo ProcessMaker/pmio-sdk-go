@@ -24,9 +24,9 @@ package pmio
 
 type InputOutputAttributes struct {
 
-	InputParameters Object `json:"input_parameters,omitempty"`
+	InputParameters string `json:"input_parameters,omitempty"`
 
-	OutputParameters Object `json:"output_parameters,omitempty"`
+	OutputParameters string `json:"output_parameters,omitempty"`
 
 	CreatedAt string `json:"created_at,omitempty"`
 
